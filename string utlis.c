@@ -77,3 +77,42 @@ while( *p != '\0'){
 
 *p = *(p+1);
 p++;
+}
+
+}
+
+s++;
+}
+
+printf("\nAfter removing %c we get : ",c);
+
+while(*ptr!='\0'){
+
+printf("%c",*ptr);
+ptr++;
+
+}
+
+
+}
+
+// QUESTION NO : 4
+
+char * removeCharCopy( char *s, char c){
+
+
+char *ptr=s;
+
+char *p;
+
+while(*s!='\0'){
+
+if(*s==c){
+
+*s=*(s+1);
+p=s+1;
+
+while( *p != '\0'){
+
+*p = *(p+1);
+p++;
