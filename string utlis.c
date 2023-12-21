@@ -26,4 +26,13 @@ while ( ch != (s+1) ){
     
     printf("%c",*ch);
     ch++;
-    
+    }
+
+
+}
+
+// QUESTION NO : 2
+
+char *replaceCharCopy(char *s, char oldChar, char newChar){
+
+char *dyn_str = (char*) malloc(strlen(s)+ 1); 
