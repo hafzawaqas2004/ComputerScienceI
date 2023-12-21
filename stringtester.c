@@ -19,3 +19,34 @@ char oldChar='_';
 char newChar='A';
 
 replaceChar(str , oldChar, newChar);
+printf("\nTest Case 2\n");
+
+char str_2[8]="AOMSaTS";
+
+oldChar='A';
+newChar='C';
+
+replaceChar(str_2 , oldChar, newChar);
+
+// Test Case 3
+
+printf("\nTest Case 3\n");
+
+char str_3[12]="M__YE M__YE";
+
+oldChar='_';
+newChar='O';
+
+replaceChar(str_3 , oldChar, newChar);
+
+}
+
+// QUESTION NO : 2
+
+if (choice==2){
+    
+    //TEST CASE:1
+
+char str[8]="MOOP";
+char oldChar='P';
+char newChar='N';
