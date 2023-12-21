@@ -16,3 +16,14 @@ if(*s== oldChar){
 *s = newChar;
 
 }
+s++;
+
+}
+
+printf("\nAfter Replacement we get : ");
+
+while ( ch != (s+1) ){
+    
+    printf("%c",*ch);
+    ch++;
+    
