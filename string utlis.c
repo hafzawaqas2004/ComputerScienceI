@@ -5,3 +5,14 @@
 
 
 // QUESTION NO : 1
+void replaceChar(char *s, char oldChar, char newChar){
+
+char *ch=s;
+
+while(*s != '\0'){
+
+if(*s== oldChar){
+
+*s = newChar;
+
+}
