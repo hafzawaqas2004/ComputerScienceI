@@ -50,3 +50,15 @@ if (choice==2){
 char str[8]="MOOP";
 char oldChar='P';
 char newChar='N';
+
+char *dyn_arr_ptr = replaceCharCopy(str , oldChar, newChar);
+
+printf("\nAfter Replace of %c with %c we get : %s",oldChar,newChar,dyn_arr_ptr);
+
+ //TEST CASE:2
+
+char str_2[8]="AOMSaTS";
+ oldChar='A';
+ newChar='C';
+
+char *dyn_arr_ptr_2 = replaceCharCopy(str_2 , oldChar, newChar);
