@@ -62,3 +62,10 @@ char str_2[8]="AOMSaTS";
  newChar='C';
 
 char *dyn_arr_ptr_2 = replaceCharCopy(str_2 , oldChar, newChar);
+printf("\nAfter Replace of %c with %c we get : %s",oldChar,newChar,dyn_arr_ptr_2);
+
+ //TEST CASE:3
+
+char str_3[12]="M__YE M__YE";
+ oldChar='_';
+ newChar='O';
