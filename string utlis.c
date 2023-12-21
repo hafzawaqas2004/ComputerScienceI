@@ -116,3 +116,17 @@ while( *p != '\0'){
 
 *p = *(p+1);
 p++;
+}
+
+}
+
+s++;
+}
+
+char *dynamic_str = (char * ) malloc(strlen(ptr) + 1);
+
+strcpy(dynamic_str,ptr);
+
+return dynamic_str;
+
+}
